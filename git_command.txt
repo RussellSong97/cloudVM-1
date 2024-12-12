@@ -1,0 +1,31 @@
+how to setting git !
+1. git config --global user.name "your name"
+2. git config --global user.email "youre@email.domain"
+3. git init
+4. git config --global --unset credential.helper
+5. git config --global credential.helper store
+6. git clone [https://github.com/...]
+  - after this, you have to inser your name and password. In password, this is token where you have to generate token in Github developer setting.
+
+
+
+after finished setting and pull the git repository.
+you have to check the credential.helper !!!!!!
+use thie command :
+cat ~/.git-credential
+
+finished!~!!!!!!
+
+
+If you want to try push the file.
+1. git add * / git add .
+2. git commit -m "message you want to wrtie"
+3. git push
+
+end~~~~
+
+
+pull the file.
+1. git pull
+
+end!!!!!!!!!!
