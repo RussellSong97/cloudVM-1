@@ -1,0 +1,12 @@
+killall apt apt-get
+
+rm -rf /var/lib/api/lists/lock
+rm -rf /var/cache/apt/archives/lock
+rm -rf /var/lib/dpkg/lock*
+
+
+
+second one
+
+dpkg --config -a
+apt update
