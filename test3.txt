@@ -1,0 +1,6 @@
+you gave to create credential.helper store! so that you don't need to insert Id and Pwd all the times!
+git config --global --unset credential.helper
+git config --global credential.helper store
+
+you can see the credential.helper by using this command
+cat ~/.git-credentials
